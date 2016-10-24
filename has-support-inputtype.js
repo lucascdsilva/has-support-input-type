@@ -3,8 +3,7 @@
     try {
        var input = document.createElement('input');
        input.type = type;
-       if(input.type == type) return true;
-       return false;
+       return (input.type == type);
     } catch(e) {
       return false;
     }
